@@ -1,0 +1,50 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn-p {
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 15px 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: #fd6e0a;
+  border: 0;
+}
+/* nav styles */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+header nav .logo {
+  color: #181818;
+  font-family: Open Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+header nav h3 .orange-text {
+  color: #fd6e0a;
+}
+
+header nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #474747;
+}
